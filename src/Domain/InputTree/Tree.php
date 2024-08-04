@@ -20,6 +20,11 @@ class Tree
         'variantIndex' => [],
     ];
 
+    public function getSize(): int
+    {
+        return sizeof($this->tree);
+    }
+
     public function addNode(Node $node): void
     {
         $this->tree[$node->getItemName()] = $node;
@@ -30,13 +35,18 @@ class Tree
     {
         if (key_exists($node->getType(), self::NODE_TYPES)) {
             $key = self::NODE_TYPES[$node->getType()];
-            $this->index[$key][] = $node->getItemName();
+            $this->index[$key][] = $node;
         }
     }
 
     public function getNodes(): array
     {
         return $this->tree;
+    }
+
+    public function getNode(string $itemname): ?Node
+    {
+        return $this->tree[$itemname] ?? null;
     }
 
     public function getIndex(): array

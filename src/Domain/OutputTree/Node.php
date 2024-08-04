@@ -9,7 +9,7 @@ class Node
     public function __construct(
         private string $itemName,
         private ?Node $parent = null,
-        private ?Node $child = null,
+        private array $children = [],
     ) {
     }
 
@@ -18,13 +18,23 @@ class Node
         return $this->itemName;
     }
 
+    public function addParent(Node $parentNode): void
+    {
+        $this->parent = $parentNode;
+    }
+
     public function getParent(): ?Node
     {
         return $this->parent;
     }
 
-    public function getChild(): ?Node
+    public function addChild(Node $childNode): void
     {
-        return $this->child;
+        $this->children[] = $childNode;
+    }
+
+    public function getChildren(): array
+    {
+        return $this->children;
     }
 }

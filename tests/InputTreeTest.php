@@ -32,50 +32,53 @@ class InputTreeTest extends KernelTestCase
         $loader = $container->get(TreeLoader::class);
         $tree = $loader->loadTree('');
 
-        $nodes = $tree->getNodes();
+        $this->assertSame(4, $tree->getSize());
 
-        $this->assertIsArray($nodes);
-        $this->assertCount(4, $nodes);
+        $node = $tree->getNode('Total');
+        $this->assertNotNull($node);
+        $this->assertIsString($node->getItemName());
+        $this->assertEquals('Total', $node->getItemName());
+        $this->assertIsString($node->getType());
+        $this->assertEquals('Изделия и компоненты', $node->getType());
+        $this->assertIsString($node->getParent());
+        $this->assertEmpty($node->getParent());
+        $this->assertIsString($node->getRelation());
+        $this->assertEmpty($node->getRelation());
 
-        $this->assertInstanceOf(Node::class, $nodes['Total']);
-        $this->assertIsString($nodes['Total']->getItemName());
-        $this->assertEquals('Total', $nodes['Total']->getItemName());
-        $this->assertIsString($nodes['Total']->getType());
-        $this->assertEquals('Изделия и компоненты', $nodes['Total']->getType());
-        $this->assertIsString($nodes['Total']->getParent());
-        $this->assertEmpty($nodes['Total']->getParent());
-        $this->assertIsString($nodes['Total']->getRelation());
-        $this->assertEmpty($nodes['Total']->getRelation());
+        $node = $tree->getNode('ПВЛ');
+        $this->assertNotNull($node);
+        $this->assertIsString($node->getItemName());
+        $this->assertEquals('ПВЛ', $node->getItemName());
+        $this->assertIsString($node->getType());
+        $this->assertEquals('Изделия и компоненты', $node->getType());
+        $this->assertIsString($node->getParent());
+        $this->assertEquals('Total', $node->getParent());
+        $this->assertIsString($node->getRelation());
+        $this->assertEmpty($node->getRelation());
 
-        $this->assertInstanceOf(Node::class, $nodes['ПВЛ']);
-        $this->assertIsString($nodes['ПВЛ']->getItemName());
-        $this->assertEquals('ПВЛ', $nodes['ПВЛ']->getItemName());
-        $this->assertIsString($nodes['ПВЛ']->getType());
-        $this->assertEquals('Изделия и компоненты', $nodes['ПВЛ']->getType());
-        $this->assertIsString($nodes['ПВЛ']->getParent());
-        $this->assertEquals('Total', $nodes['ПВЛ']->getParent());
-        $this->assertIsString($nodes['ПВЛ']->getRelation());
-        $this->assertEmpty($nodes['ПВЛ']->getRelation());
+        $node = $tree->getNode('Стандарт.#1');
+        $this->assertNotNull($node);
+        $this->assertIsString($node->getItemName());
+        $this->assertEquals('Стандарт.#1', $node->getItemName());
+        $this->assertIsString($node->getType());
+        $this->assertEquals('Варианты комплектации', $node->getType());
+        $this->assertIsString($node->getParent());
+        $this->assertEquals('ПВЛ', $node->getParent());
+        $this->assertIsString($node->getRelation());
+        $this->assertEmpty($node->getRelation());
 
-        $this->assertInstanceOf(Node::class, $nodes['Стандарт.#1']);
-        $this->assertIsString($nodes['Стандарт.#1']->getItemName());
-        $this->assertEquals('Стандарт.#1', $nodes['Стандарт.#1']->getItemName());
-        $this->assertIsString($nodes['Стандарт.#1']->getType());
-        $this->assertEquals('Варианты комплектации', $nodes['Стандарт.#1']->getType());
-        $this->assertIsString($nodes['Стандарт.#1']->getParent());
-        $this->assertEquals('ПВЛ', $nodes['Стандарт.#1']->getParent());
-        $this->assertIsString($nodes['Стандарт.#1']->getRelation());
-        $this->assertEmpty($nodes['Стандарт.#1']->getRelation());
+        $node = $tree->getNode('Тележка Б25.#2');
+        $this->assertNotNull($node);
+        $this->assertIsString($node->getItemName());
+        $this->assertEquals('Тележка Б25.#2', $node->getItemName());
+        $this->assertIsString($node->getType());
+        $this->assertEquals('Прямые компоненты', $node->getType());
+        $this->assertIsString($node->getParent());
+        $this->assertEquals('Стандарт.#1', $node->getParent());
+        $this->assertIsString($node->getRelation());
+        $this->assertEquals('Тележка Б25', $node->getRelation());
 
-        $this->assertInstanceOf(Node::class, $nodes['Тележка Б25.#2']);
-        $this->assertIsString($nodes['Тележка Б25.#2']->getItemName());
-        $this->assertEquals('Тележка Б25.#2', $nodes['Тележка Б25.#2']->getItemName());
-        $this->assertIsString($nodes['Тележка Б25.#2']->getType());
-        $this->assertEquals('Прямые компоненты', $nodes['Тележка Б25.#2']->getType());
-        $this->assertIsString($nodes['Тележка Б25.#2']->getParent());
-        $this->assertEquals('Стандарт.#1', $nodes['Тележка Б25.#2']->getParent());
-        $this->assertIsString($nodes['Тележка Б25.#2']->getRelation());
-        $this->assertEquals('Тележка Б25', $nodes['Тележка Б25.#2']->getRelation());
+        $this->assertNull($tree->getNode('NotItemName'));
 
         $index = $tree->getIndex();
         $articleComponentIndex = $index['articleComponentIndex'];
@@ -83,13 +86,25 @@ class InputTreeTest extends KernelTestCase
         $variantIndex = $index['variantIndex'];
 
         $this->assertCount(2, $articleComponentIndex);
-        $this->assertContains('Total', $articleComponentIndex);
-        $this->assertContains('ПВЛ', $articleComponentIndex);
-        
+
+        $node = $articleComponentIndex[0];
+        $this->assertInstanceOf(Node::class, $node);
+        $this->assertEquals('Total', $node->getItemName());
+
+        $node = $articleComponentIndex[1];
+        $this->assertInstanceOf(Node::class, $node);
+        $this->assertEquals('ПВЛ', $node->getItemName());
+                
         $this->assertCount(1, $directComponentIndex);
-        $this->assertContains('Тележка Б25.#2', $directComponentIndex);
+
+        $node = $directComponentIndex[0];
+        $this->assertInstanceOf(Node::class, $node);
+        $this->assertEquals('Тележка Б25.#2', $node->getItemName());
 
         $this->assertCount(1, $variantIndex);
-        $this->assertContains('Стандарт.#1', $variantIndex);
+
+        $node = $variantIndex[0];
+        $this->assertInstanceOf(Node::class, $node);
+        $this->assertEquals('Стандарт.#1', $node->getItemName());
     }
 }

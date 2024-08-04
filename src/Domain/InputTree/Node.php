@@ -14,8 +14,8 @@ class Node
     public function __construct(
         string $itemName,
         string $type,
-        string $parent,
-        string $relation,
+        string $parent = '',
+        string $relation = '',
     )
     {
         $this->itemName = $itemName;

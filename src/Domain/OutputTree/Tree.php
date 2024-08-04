@@ -11,6 +11,11 @@ class Tree
     ) {     
     }
 
+    public function getSize(): int
+    {
+        return sizeof($this->tree);
+    }
+
     public function addNode(Node $node): void
     {
         $this->tree[$node->getItemName()] = $node;
@@ -23,10 +28,5 @@ class Tree
         }
 
         return null;
-    }
-
-    public function saveToJsonFile(): void
-    {
-        
     }
 }
