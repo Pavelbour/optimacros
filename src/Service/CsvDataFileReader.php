@@ -12,6 +12,7 @@ class CsvDataFileReader
         $file = fopen($fileName, 'r');
         $dataString = '';
 
+        fgets($file);
         while ($dataString = fgets($file)) {
             $result[] = $dataString;
         }

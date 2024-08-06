@@ -1,0 +1,64 @@
+[
+  {
+    "itemName": "Total",
+    "parent": "Zero",
+    "children": [
+      {
+        "itemName": "ПВЛ",
+        "parent": "Total",
+        "children": [
+          {
+            "itemName": "Стандарт.#1",
+            "parent": "ПВЛ",
+            "children": [
+              {
+                "itemName": "Тележка Б25.#2",
+                "parent": "Стандарт.#1",
+                "children": [
+                  {
+                    "itemName": "Стандарт.#5",
+                    "parent": "Тележка Б25",
+                    "children": [
+                      {
+                        "itemName": "РБ ЦДЛР.9855.00.02.000.#17",
+                        "parent": "Стандарт.#5",
+                        "children": []
+                      },
+                      {
+                        "itemName": "РБ ЦДЛР.9855.00.02.000.#18",
+                        "parent": "Стандарт.#5",
+                        "children": []
+                      },
+                      {
+                        "itemName": "Колесная пара 25 т.#19",
+                        "parent": "Стандарт.#5",
+                        "children": [
+                          {
+                            "itemName": "Стандарт.#10",
+                            "parent": "Колесная пара 25 т",
+                            "children": [
+                              {
+                                "itemName": "Колесо 25т.#52",
+                                "parent": "Стандарт.#10",
+                                "children": []
+                              },
+                              {
+                                "itemName": "Ось 25т.#53",
+                                "parent": "Стандарт.#10",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

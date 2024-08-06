@@ -1,0 +1,763 @@
+[
+  {
+    "itemName": "Total",
+    "parent": "Zero",
+    "children": [
+      {
+        "itemName": "ПВЛ",
+        "parent": "Total",
+        "children": [
+          {
+            "itemName": "Стандарт.#1",
+            "parent": "ПВЛ",
+            "children": [
+              {
+                "itemName": "Тележка Б25.#2",
+                "parent": "Стандарт.#1",
+                "children": [
+                  {
+                    "itemName": "Стандарт.#5",
+                    "parent": "Тележка Б25",
+                    "children": [
+                      {
+                        "itemName": "РБ ЦДЛР.9855.00.02.000.#17",
+                        "parent": "Стандарт.#5",
+                        "children": []
+                      },
+                      {
+                        "itemName": "БН ЦДЛР.9855.00.01.000.#18",
+                        "parent": "Стандарт.#5",
+                        "children": []
+                      },
+                      {
+                        "itemName": "Колесная пара 25 т.#19",
+                        "parent": "Стандарт.#5",
+                        "children": [
+                          {
+                            "itemName": "Стандарт.#10",
+                            "parent": "Колесная пара 25 т",
+                            "children": [
+                              {
+                                "itemName": "Колесо 25т.#52",
+                                "parent": "Стандарт.#10",
+                                "children": []
+                              },
+                              {
+                                "itemName": "Ось 25т.#53",
+                                "parent": "Стандарт.#10",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "itemName": "Колесная пара BA",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Ось 25т",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Ось 27т",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Пружины локомотивные",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Пружины жд",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Пружины автомобильные",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Пружины прочие",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "РБ",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Рама боковая",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Рама боковая 4536",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "РБ 2715",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "РБ 4415",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "РБ 4914",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "РБ 4536--",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "РБ 4915",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "РБ 4916",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "РБ 4917",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "РБ 4918",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "РБ 4919",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "РБ 4920",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "РБ 4921",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "РБ 4922",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "РБ 4923",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "РБ 9855",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "РБ F-1121",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "РБ R-78221",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "РБ R-78227",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Рама ПЛ 60фт Мавритания",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "БН",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Балка надрессорная",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Балка надрессорная 4536",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "БН 2715",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "БН 4415",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "БН 4536",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "БН 4701",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "БН 4914",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "БН 9855",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "БН F-1122",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "БН R-78220",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "БН R-78224",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "(не использовать) СВЛ",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "(не использовать) СВЛ 2",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Изделия металлические",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Изделия металлические - Тринити",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Детали плазмы, вальцовки",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Износостойкие элементы Тринити",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Детали плазмы",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Детали штамповки",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Детали плазмы, сверловки, фаски",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Детали плазмы, сверловки",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Детали плазмы, вальцовки, сварки",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Детали порезки, снятия фаски",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Детали плазмы, гибки, сварки",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Подшипники",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Метизы",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "ЖД комплектующие",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Колпары",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "КВЛ",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Прочее СВЛ",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "МВЛ Тринити",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "СВЛ Тринити",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "КВЛ Wabtec",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "ВЧ",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Тележки",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Триангель",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Износостойкие элементы",
+                            "parent": "Total",
+                            "children": []
+                          },
+                          {
+                            "itemName": "Комплект СВЛ стд",
+                            "parent": "Total",
+                            "children": [
+                              {
+                                "itemName": "Стандарт.#8",
+                                "parent": "Комплект СВЛ стд",
+                                "children": [
+                                  {
+                                    "itemName": "Автосцепка в сборе.#43",
+                                    "parent": "Стандарт.#8",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Упор задний УЗ1К.#44",
+                                    "parent": "Стандарт.#8",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Упор передний УП1К.#45",
+                                    "parent": "Стандарт.#8",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Хомут тяговый.#47",
+                                    "parent": "Стандарт.#8",
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "itemName": "Комплект СВЛ с УЗ01К",
+                                "parent": "Total",
+                                "children": [
+                                  {
+                                    "itemName": "Стандарт.#9",
+                                    "parent": "Комплект СВЛ с УЗ01К",
+                                    "children": [
+                                      {
+                                        "itemName": "Автосцепка в сборе.#48",
+                                        "parent": "Стандарт.#9",
+                                        "children": []
+                                      },
+                                      {
+                                        "itemName": "Упор передний УП1К.#49",
+                                        "parent": "Стандарт.#9",
+                                        "children": []
+                                      },
+                                      {
+                                        "itemName": "Упор с надпятником УЗ01К.#50",
+                                        "parent": "Стандарт.#9",
+                                        "children": []
+                                      },
+                                      {
+                                        "itemName": "Хомут тяговый.#51",
+                                        "parent": "Стандарт.#9",
+                                        "children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "itemName": "(не использовать) Автосцепка в сборе",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "(не использовать) Упор с надпятником",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Упор задний УЗ1К (отливка)",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Упор задний УЗ1К",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Упор передний УП1К (отливка)",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Упор передний УП1К",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Упор с надпятником УЗ01К (отливка)",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Упор с надпятником УЗ01К",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Хомут тяговый",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Надпятник (отливка)",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Надпятник",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "SAC поводковая",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "SAC пятниковая",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Компоненты рамы",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "ХБ",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Литая консоль",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина №1",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина №2",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина №3",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина №4",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина №5",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина №6",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина .004 - 55С2",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина .005 - 55С2",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина .006 - 55С2",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина .007 - 55С2",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина .003 - 55С2",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина .010 - 55С2",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина 9855.001",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина 9855.002",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина 9855.003",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина 9855.004",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина 9855.03.003",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина 9855.03.004",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина 4536-07.00.00.004-02",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина 4536-07.00.00.005-02",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина 4536-07.00.00.006-02",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина 4536-07.00.00.007-02",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина 4536-07.00.03.003-02",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина 4536-07.00.03.010-02",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина 9855.00.00.001",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина 9855.00.00.002",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина 9855.00.00.003",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина 9855.00.00.004",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина 9855.00.03.003",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина 9855.00.03.004",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина внутренняя 2 Fwg 696.0.06.023.001",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Пружина наружная 2 Fwg 696.0.06.023.002",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Клин 4536-07.00.00.003",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Клин 4536-07.00.00.003-01",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Клин ЦДЛР.3915.00.00.00",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Адаптер M1771 и М43316-1",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Адаптер подшипника 4536-07.00.00.001",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "БН 4701-09.00.01.000",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "БН ЦДЛР.3915.01.00.000",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "БН ЦДЛР.9855.00.01.000",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "РБ 4536-07.00.02.000",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "РБ ЦДЛР.3915.02.00.000",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "РБ ЦДЛР.9855.00.02.000",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Скользун 4536-07.00.03.000",
+                                    "parent": "Total",
+                                    "children": []
+                                  },
+                                  {
+                                    "itemName": "Скользун ЦДЛР 9855.00.03.000",
+                                    "parent": "Total",
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
